@@ -7,8 +7,8 @@
 #																   
 # Purpose: This script will call the third party API - quandlAPI to get the gold price daily in USD currency based on current date 
 # 	   and this will display the date,goldprice amount in USD in the daterange between lastyear same date and todays date.     
-#	     Data is in JSON format and the data is parsed and and only the required data are extracted. This data will be added as  	
-# 	   dataset in geckoboard with date and value fields. The chart will be shown in geckoboard.				   
+#	     Data is in JSON format and the data is parsed and only the required data is extracted. This data will be added as  	
+# 	   dataset in geckoboard with date and value fields. The chart will be shown in geckoboard dashboard.			   
 #
 #	   Pacakges installed: curb,geckoboard
 #														  		    
