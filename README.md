@@ -24,16 +24,20 @@ $ whenever --update-crontab
 Sample Output:
 
 home@home:~/gbruby/goldprice$ whenever --update-crontab
+
 [write] crontab file updated
 
 home@home:~/gbruby/goldprice/log$ cat cron.log 
+
 Dataset created!
 Dataset created!
+
 
 Once the data is extracted from quandlAPI , datasets with 2 fields date and gold price value in usd is shown in geckodashboard.
 Add widget with Dataset id: gold_daily_usd. Chart with date in x-axis and value(gold price in USD) in y-axis. Date range with today's date and last year same date.
 
 Improvements to be done:
+
 QuandlAPI- There's gem available but I didnt use it here. 
 Used curb gem- curl.get method.
 Considered only USD,Need to enhance the charts with other currencies.
