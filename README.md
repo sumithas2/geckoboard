@@ -30,6 +30,7 @@ home@home:~/gbruby/goldprice$ whenever --update-crontab
 home@home:~/gbruby/goldprice/log$ cat cron.log 
 
 Dataset created!
+
 Dataset created!
 
 
@@ -39,9 +40,14 @@ Add widget with Dataset id: gold_daily_usd. Chart with date in x-axis and value(
 Improvements to be done:
 
 QuandlAPI- There's gem available but I didnt use it here. 
+
 Used curb gem- curl.get method.
+
 Considered only USD,Need to enhance the charts with other currencies.
+
 Log file should be improved. Right now output is Dataset created! after the script is executed.
+
+
 
 Dashboard screenshots is attached.
 
